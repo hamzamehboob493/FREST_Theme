@@ -1,0 +1,268 @@
+<html class="loaded" lang="en" data-textdirection="ltr"><!-- BEGIN: Head--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Treeview - Frest - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/bootstrap-treeview.min.css">
+    
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+    <!-- END: Theme CSS-->
+<link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/forms/select/select2.min.css">
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/ext-component-treeview.css">
+    
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="CSS/style.css"/> -->
+    <!-- END: Custom CSS-->
+
+<style type="text/css" id="tags-badge-treeview-style"> .treeview .list-group-item{cursor:pointer}.treeview span.indent{margin-left:10px;margin-right:10px}.treeview span.icon{width:12px;margin-right:5px}.treeview .node-disabled{color:silver;cursor:not-allowed}.node-tags-badge-treeview{color:#5A8DEE;}.node-tags-badge-treeview:not(.node-disabled):hover{background-color:#F5F5F5;} 
+
+html body.navbar-sticky .app-content .content-wrapper {
+    padding: 0px;
+    margin-top: 0px;
+}
+</style></head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern 2-columns navbar-sticky footer-static  menu-expanded pace-done" data-open="click" data-menu="vertical-menu-modern" data-col="2-columns"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+    <!-- BEGIN: Header-->
+    <div class="header-navbar-shadow"></div>
+
+<style>
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #333 url(/images/classy_fabric.png);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.signature {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-family: "Open Sans";
+  color: gray;
+  font-weight: 300;
+  
+  strong {
+    font-weight: 500;
+  }  
+}
+
+.teardrop {
+    background-color: #f9e3d5;
+    display: block;
+    width: 180px;
+    padding: 40px 20px 50px 20px;
+    height: 170px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    position: relative;
+    box-shadow: 1px 2px 12px grey;
+    cursor: pointer;
+    color: #000 !important;
+}
+
+.teardrop .asterisk {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 32px;
+  color: violet;
+  font-weight: 600;
+}
+
+.teardrop span.firsttext {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: violet;
+  margin-top: 6px;
+}
+
+.teardrop span.slogan {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.teardrop1 {
+    background-color: #f9e3d5;
+    display: block;
+    width: 180px;
+    padding: 50px 20px 50px 20px;
+    height: 170px;
+    /* border-top-left-radius: 90px; */
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    position: relative;
+    box-shadow: 1px 2px 12px grey;
+    cursor: pointer;
+    color: #000 !important;
+    border-top-right-radius: 90px;
+}
+.sign_box {
+    background: #d9e1f1;
+    padding: 40px 3px;
+    width: 80%;
+    margin-left: 34px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 12px grey;
+}
+.bg_color {
+    background: #d9e1f1;
+}
+.card-deck .card {
+    box-shadow: 1px 2px 12px grey;
+    height: 500px;
+}
+.sign_text {
+    color: #000;
+    font-weight: 800;
+    font-size: 28px !important;
+}
+.btn-success {
+    width: 80%;
+}
+html body .content {
+    margin-left: 0px;
+}
+.sign_main {
+    width: 80%;
+    margin: 0 auto;
+}
+</style>
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            <div class="sign_main mt-5">
+                <div class="content-body mt-2">
+                    <div class="card-deck">
+                          <div class="card text-center bg_color">
+                            <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+                            <div class="teardrop center mt-5">
+                              <h5 class="card-title sign_text">Services Provider<br>/OEM</h5>
+                            </div>
+
+                            <span class="signature">
+                              a pen by <strong>Nahuel Rosso</strong>
+                            </span>
+                            <div class="card-body">
+                              <p class="card-text">I Service My customers and maintain Service Contracts. Few of my contracts are performed by my partners</p>
+                              <a href="#" class="btn btn-success mt-3">Sign Up</a>
+                            </div>
+                          </div>
+                          <div class="card text-center">
+                            <div class="sign_box mt-5">
+                                <h5 class="card-title pt-2 sign_text">Consumer</h5>
+                            </div>
+                            <div class="card-body">
+                              <p class="card-text mt-3">I search for Service Providers and Contracts I have with them</p>
+                              <a href="#" class="btn btn-success mt-3">Sign Up</a>
+                            </div>
+                          </div>
+                          <div class="card text-center bg_color">
+                            <div class="teardrop1 center mt-5">
+                               <h5 class="card-title sign_text">Business<br>Consumer</h5>
+                            </div>
+                            <span class="signature">
+                              a pen by <strong>Nahuel Rosso</strong>
+                            </span>                   
+                            <div class="card-body">
+                              <p class="card-text">I search for Service Providers and track contracts maintained by Internal teams and also service providers</p>
+                              <a href="#" class="btn btn-success mt-3">Sign Up</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END: Content-->
+        
+
+    <div class="sidenav-overlay" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+    <div class="drag-target" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+
+    <!-- BEGIN: Footer-->
+   <!--  <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0"><span class="float-left d-inline-block">2019 © PIXINVENT</span><span class="float-right d-sm-inline-block d-none">Crafted with<i class="bx bxs-heart pink mx-50 font-small-3"></i>by<a class="text-uppercase" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a></span>
+            <button class="btn btn-primary btn-icon scroll-top" type="button" style="display: none;"><i class="bx bx-up-arrow-alt"></i></button>
+        </p>
+    </footer> -->
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+<script src="../../../app-assets/js/scripts/forms/select/form-select2.js"></script>
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/extensions/bootstrap-treeview.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/scripts/configs/vertical-menu-light.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <script src="../../../app-assets/js/scripts/footer.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/extensions/ext-component-treeview.js"></script>
+    
+    
+    
+    <!-- END: Page JS-->
+    
+
+
+<!-- END: Body-->
+
+</body></html>
